@@ -4,17 +4,65 @@
 # or whitespace (' ').
 
 
-class EmailAddressParser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class EmailAddressParser
     
-    attr_accessor :email_addresses 
+#     attr_accessor :email_addresses 
     
-    def initialize(email_addresses)
-        @email_addresses = email_addresses
-    end
+#     def initialize(email_addresses)
+#         @email_addresses = email_addresses
+#     end
     
-    def parse
-        @parsed = @email_addresses.split(/,?\s/).uniq 
-        @parsed 
+#     def parse
+#         @parsed = @email_addresses.split(/,?\s/).uniq 
+#         @parsed 
     
-    end
-end
+#     end
+# end
